@@ -27,7 +27,6 @@ exports.Window = do ->
   btnAlert = Ti.UI.createButton
     height: 60
     width: 'auto'
-    height: 'auto'
     title: 'Greet me!'
     font: {fontSize: 24, fontWeight: 'bold', fontColor: '#000'}
     color: '#000'
