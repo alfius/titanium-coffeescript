@@ -7,5 +7,5 @@ end
 
 desc "Clean"
 task :clean do
-  sh "find Resources -name '*.js' | grep -v underscore.js | xargs rm"
+  sh "find Resources -name '*.js' | grep -v underscore.js | xargs -r rm"
 end
